@@ -15,7 +15,7 @@ totalOutput = sunnyOutput + shadedOutput
 
 owners = 3
 
-eatCount = totalOutput % 3
+eatCount = totalOutput % owners
 sellableOutput = totalOutput - eatCount
 cut = sellableOutput / owners
 
