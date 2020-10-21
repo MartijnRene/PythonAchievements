@@ -22,6 +22,7 @@ def nextprint():
     time.sleep(2)
     os.system('cls')
 
+os.system('cls')
 printlist()
 nextprint()
 factory_to_distribution()
